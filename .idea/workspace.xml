@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b45624b9-2db1-4d80-938c-8de9d7834dc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/feignclients/WorkerFeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-payroll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/HrPayrollApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/HrPayrollApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/services/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/services/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/feignclients/WorkerFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/feignclients/WorkerFeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/resources/WorkerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/resources/WorkerResources.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="4c711b98" />
-                    <option name="lastUsedInstant" value="1706320067" />
+                    <option name="lastUsedInstant" value="1706365608" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="9350f97a" />
+                    <option name="lastUsedInstant" value="1706365270" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="f0a85588" />
@@ -68,10 +72,6 @@
                   <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1706313052" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="3bae5eb3" />
-                    <option name="lastUsedInstant" value="1706313051" />
                   </RecentBranch>
                 </list>
               </option>
@@ -138,19 +138,39 @@
   </component>
   <component name="RunManager" selected="Spring Boot.HrPayrollApplication">
     <configuration name="HrPayrollApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="hr-payroll" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hrpayroll.hrpayroll.HrPayrollApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MicroservicesSpringCloudProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="HrWorkerApplication 8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="hr-worker" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservicesspringcloudproject.microservicesspringcloudproject.MicroservicesSpringCloudProjectApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HrWorkerApplication 8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="hr-worker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservicesspringcloudproject.microservicesspringcloudproject.MicroservicesSpringCloudProjectApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.HrPayrollApplication" />
+      <item itemvalue="Spring Boot.HrWorkerApplication 8001" />
+      <item itemvalue="Spring Boot.HrWorkerApplication 8002" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -170,7 +190,9 @@
       <workItem from="1706312956429" duration="2039000" />
       <workItem from="1706315689524" duration="75000" />
       <workItem from="1706316466595" duration="643000" />
-      <workItem from="1706317236385" duration="3314000" />
+      <workItem from="1706317236385" duration="3450000" />
+      <workItem from="1706359714535" duration="69000" />
+      <workItem from="1706364582458" duration="2139000" />
     </task>
     <servers />
   </component>
