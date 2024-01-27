@@ -8,10 +8,7 @@ public class MicroservicesSpringCloudProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MicroservicesSpringCloudProjectApplication.class, args);
-<<<<<<< Updated upstream
-=======
 		System.out.println("Server Running: 8001 ;)");
->>>>>>> Stashed changes
 	}
 
 }
