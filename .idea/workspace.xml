@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5fa5cac-cc68-4816-8d78-3f4500cad044" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-eureka-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-eureka-server/src/main/java/com/hreurekaserver/hreurekaserver/HrEurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-eureka-server/src/main/java/com/hreurekaserver/hreurekaserver/HrEurekaServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/HrPayrollApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/HrPayrollApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/HrWorkerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/MicroservicesSpringCloudProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/MicroservicesSpringCloudProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +39,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.HrEurekaServerApplication.executor": "Debug",
+    "Spring Boot.HrPayrollApplication.executor": "Debug",
+    "Spring Boot.HrWorkerApplication.executor": "Debug",
     "git-widget-placeholder": "63484f0f",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/joaop/Desktop/ms-project/microservices-project",
@@ -53,10 +59,14 @@
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.HrEurekaServerApplication">
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.HrWorkerApplication">
     <configuration name="HrEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hr-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hreurekaserver.hreurekaserver.HrEurekaServerApplication" />
@@ -71,6 +81,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HrWorkerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="hr-worker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservicesspringcloudproject.microservicesspringcloudproject.MicroservicesSpringCloudProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.HrEurekaServerApplication" />
+      <item itemvalue="Spring Boot.HrWorkerApplication" />
+      <item itemvalue="Spring Boot.HrPayrollApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -88,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706378558995</updated>
       <workItem from="1706378561162" duration="1736000" />
-      <workItem from="1706382469362" duration="476000" />
+      <workItem from="1706382469362" duration="2376000" />
     </task>
     <servers />
   </component>
