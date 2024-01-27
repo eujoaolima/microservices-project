@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b45624b9-2db1-4d80-938c-8de9d7834dc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/entities/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/feignclients/WorkerFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/HrPayrollApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/HrPayrollApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/services/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/services/PaymentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -51,6 +53,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="4c711b98" />
+                    <option name="lastUsedInstant" value="1706320067" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="f0a85588" />
                     <option name="lastUsedInstant" value="1706318646" />
@@ -106,7 +112,7 @@
     "Spring Boot.HrPayrollApplication.executor": "Debug",
     "Spring Boot.MicroservicesSpringCloudProjectApplication.executor": "Debug",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "f0a85588",
+    "git-widget-placeholder": "4c711b98",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/joaop/Desktop/ms-project/microservices-project/hr-payroll/src/main/java/com/hrpayroll/hrpayroll",
     "node.js.detected.package.eslint": "true",
@@ -117,6 +123,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -129,7 +136,7 @@
       <recent name="com.hrpayroll.hrpayroll.entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MicroservicesSpringCloudProjectApplication">
+  <component name="RunManager" selected="Spring Boot.HrPayrollApplication">
     <configuration name="HrPayrollApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hr-payroll" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hrpayroll.hrpayroll.HrPayrollApplication" />
@@ -163,7 +170,7 @@
       <workItem from="1706312956429" duration="2039000" />
       <workItem from="1706315689524" duration="75000" />
       <workItem from="1706316466595" duration="643000" />
-      <workItem from="1706317236385" duration="1983000" />
+      <workItem from="1706317236385" duration="3314000" />
     </task>
     <servers />
   </component>
