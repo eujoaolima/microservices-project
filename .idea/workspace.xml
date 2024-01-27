@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b45624b9-2db1-4d80-938c-8de9d7834dc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/entities/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/resources/PaymentResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/services/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/MicroservicesSpringCloudProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/MicroservicesSpringCloudProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/entities/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/services/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/services/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="f0a85588" />
+                    <option name="lastUsedInstant" value="1706318646" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="45af63b0" />
                     <option name="lastUsedInstant" value="1706313081" />
@@ -104,7 +106,7 @@
     "Spring Boot.HrPayrollApplication.executor": "Debug",
     "Spring Boot.MicroservicesSpringCloudProjectApplication.executor": "Debug",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "f0a85588",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/joaop/Desktop/ms-project/microservices-project/hr-payroll/src/main/java/com/hrpayroll/hrpayroll",
     "node.js.detected.package.eslint": "true",
@@ -120,10 +122,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joaop\Desktop\ms-project\microservices-project\hr-payroll\src\main\java\com\hrpayroll\hrpayroll" />
       <recent name="C:\Users\joaop\Desktop\ms-project\microservices-project\hr-payroll" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hrpayroll.hrpayroll.entities" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HrPayrollApplication">
+  <component name="RunManager" selected="Spring Boot.MicroservicesSpringCloudProjectApplication">
     <configuration name="HrPayrollApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hr-payroll" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hrpayroll.hrpayroll.HrPayrollApplication" />
@@ -157,7 +163,7 @@
       <workItem from="1706312956429" duration="2039000" />
       <workItem from="1706315689524" duration="75000" />
       <workItem from="1706316466595" duration="643000" />
-      <workItem from="1706317236385" duration="335000" />
+      <workItem from="1706317236385" duration="1983000" />
     </task>
     <servers />
   </component>
