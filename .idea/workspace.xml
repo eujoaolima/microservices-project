@@ -4,198 +4,91 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b45624b9-2db1-4d80-938c-8de9d7834dc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-eureka-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-eureka-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-eureka-server/src/main/java/com/hreurekaserver/hreurekaserver/HrEurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-eureka-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hr-eureka-server/src/test/java/com/hreurekaserver/hreurekaserver/HrEurekaServerApplicationTests.java" afterDir="false" />
+    <list default="true" id="c5fa5cac-cc68-4816-8d78-3f4500cad044" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-eureka-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-eureka-server/src/main/java/com/hreurekaserver/hreurekaserver/HrEurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-eureka-server/src/main/java/com/hreurekaserver/hreurekaserver/HrEurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-eureka-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_COMMON_BRANCH" value="main" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
-    <option name="recentBranches">
-      <RecentBranches>
-        <option name="branchesForRepo">
-          <list>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
-                  <RecentBranch>
-                    <option name="branchName" value="45af63b0" />
-                    <option name="lastUsedInstant" value="1706313079" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1706313078" />
-                  </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/hr-payroll" />
-            </RecentBranchesForRepo>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
-                  <RecentBranch>
-                    <option name="branchName" value="63484f0f" />
-                    <option name="lastUsedInstant" value="1706369057" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="4c711b98" />
-                    <option name="lastUsedInstant" value="1706365608" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="9350f97a" />
-                    <option name="lastUsedInstant" value="1706365270" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="f0a85588" />
-                    <option name="lastUsedInstant" value="1706318646" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="45af63b0" />
-                    <option name="lastUsedInstant" value="1706313081" />
-                  </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
-            </RecentBranchesForRepo>
-          </list>
-        </option>
-      </RecentBranches>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2bVvF9PrYBhU78DoBaU3OQfGFl9" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2bY4CgZ4V2ujlyCKo91sHvGcLfL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Debug",
-    "JUnit.All in hr-payroll.executor": "Debug",
-    "JUnit.hr-payroll.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.HrPayrollApplication.executor": "Debug",
-    "Spring Boot.MicroservicesSpringCloudProjectApplication.executor": "Debug",
-    "deletionFromPopupRequiresConfirmation": "false",
+    "Spring Boot.HrEurekaServerApplication.executor": "Debug",
     "git-widget-placeholder": "63484f0f",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/joaop/Desktop/ms-project/microservices-project/hr-payroll/src/main/java/com/hrpayroll/hrpayroll",
+    "last_opened_file_path": "C:/Users/joaop/Desktop/ms-project/microservices-project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\joaop\Desktop\ms-project\microservices-project\hr-payroll\src\main\java\com\hrpayroll\hrpayroll" />
-      <recent name="C:\Users\joaop\Desktop\ms-project\microservices-project\hr-payroll" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hrpayroll.hrpayroll.entities" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Spring Boot.HrPayrollApplication">
+  <component name="RunManager" selected="Spring Boot.HrEurekaServerApplication">
+    <configuration name="HrEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hr-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hreurekaserver.hreurekaserver.HrEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HrPayrollApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="hr-payroll" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hrpayroll.hrpayroll.HrPayrollApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HrWorkerApplication 8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <module name="hr-worker" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservicesspringcloudproject.microservicesspringcloudproject.MicroservicesSpringCloudProjectApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HrWorkerApplication 8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <module name="hr-worker" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservicesspringcloudproject.microservicesspringcloudproject.MicroservicesSpringCloudProjectApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8002" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Spring Boot.HrPayrollApplication" />
-      <item itemvalue="Spring Boot.HrWorkerApplication 8001" />
-      <item itemvalue="Spring Boot.HrWorkerApplication 8002" />
-    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24fca987" />
+        <option value="jdk-11.0.22-azul-11.0.22-f644763e9732-4d405f02" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b45624b9-2db1-4d80-938c-8de9d7834dc6" name="Changes" comment="" />
-      <created>1706312955153</created>
+      <changelist id="c5fa5cac-cc68-4816-8d78-3f4500cad044" name="Changes" comment="" />
+      <created>1706378558995</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1706312955153</updated>
-      <workItem from="1706312956429" duration="2039000" />
-      <workItem from="1706315689524" duration="75000" />
-      <workItem from="1706316466595" duration="643000" />
-      <workItem from="1706317236385" duration="3450000" />
-      <workItem from="1706359714535" duration="69000" />
-      <workItem from="1706364582458" duration="2139000" />
+      <updated>1706378558995</updated>
+      <workItem from="1706378561162" duration="1736000" />
+      <workItem from="1706382469362" duration="476000" />
     </task>
     <servers />
   </component>
