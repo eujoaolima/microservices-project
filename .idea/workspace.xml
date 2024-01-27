@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b45624b9-2db1-4d80-938c-8de9d7834dc6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/HrPayrollApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/HrPayrollApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/feignclients/WorkerFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/hrpayroll/hrpayroll/feignclients/WorkerFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/resources/WorkerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/resources/WorkerResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/src/main/java/com/hreurekaserver/hreurekaserver/HrEurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-eureka-server/src/test/java/com/hreurekaserver/hreurekaserver/HrEurekaServerApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="63484f0f" />
+                    <option name="lastUsedInstant" value="1706369057" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="4c711b98" />
                     <option name="lastUsedInstant" value="1706365608" />
                   </RecentBranch>
@@ -68,10 +75,6 @@
                   <RecentBranch>
                     <option name="branchName" value="45af63b0" />
                     <option name="lastUsedInstant" value="1706313081" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1706313052" />
                   </RecentBranch>
                 </list>
               </option>
@@ -112,7 +115,7 @@
     "Spring Boot.HrPayrollApplication.executor": "Debug",
     "Spring Boot.MicroservicesSpringCloudProjectApplication.executor": "Debug",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "4c711b98",
+    "git-widget-placeholder": "63484f0f",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/joaop/Desktop/ms-project/microservices-project/hr-payroll/src/main/java/com/hrpayroll/hrpayroll",
     "node.js.detected.package.eslint": "true",
