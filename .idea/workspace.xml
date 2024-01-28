@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bdac0d4-6108-4b50-8246-c1e738f24ba6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/resources/WorkerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/resources/WorkerResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-config-server/src/main/java/com/hrconfigserver/hrconfigserver/HrConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-config-server/src/main/java/com/hrconfigserver/hrconfigserver/HrConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-config-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +23,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2bYurMbV7m54KKwmjKTURl6H0us" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,33 +35,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.HrConfigServerApplication.executor": "Debug",
-    "Spring Boot.HrEurekaServerApplication.executor": "Debug",
-    "Spring Boot.HrGatewayApiZuulApplication.executor": "Debug",
-    "Spring Boot.HrWorkerApplication.executor": "Debug",
-    "git-widget-placeholder": "63484f0f",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/joaop/Desktop/ms-project/microservices-project/hr-worker/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.HrConfigServerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.HrEurekaServerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.HrGatewayApiZuulApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.HrWorkerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;63484f0f&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/joaop/Desktop/ms-project/microservices-project/hr-worker/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -132,7 +131,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706404537113</updated>
-      <workItem from="1706404542816" duration="3835000" />
+      <workItem from="1706404542816" duration="4847000" />
+      <workItem from="1706409608748" duration="464000" />
     </task>
     <servers />
   </component>
