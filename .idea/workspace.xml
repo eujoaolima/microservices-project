@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bdac0d4-6108-4b50-8246-c1e738f24ba6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/resources/WorkerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/resources/WorkerResources.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +29,28 @@
   "associatedIndex": 6
 }]]></component>
   <component name="ProjectId" id="2bYurMbV7m54KKwmjKTURl6H0us" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.HrConfigServerApplication.executor": "Debug",
+    "Spring Boot.HrEurekaServerApplication.executor": "Debug",
+    "Spring Boot.HrGatewayApiZuulApplication.executor": "Debug",
+    "Spring Boot.HrWorkerApplication.executor": "Debug",
     "git-widget-placeholder": "63484f0f",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/joaop/Desktop/ms-project/microservices-project/hr-worker/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +63,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joaop\Desktop\ms-project\microservices-project\hr-worker\src\main\resources" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -114,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706404537113</updated>
-      <workItem from="1706404542816" duration="2159000" />
+      <workItem from="1706404542816" duration="3835000" />
     </task>
     <servers />
   </component>
