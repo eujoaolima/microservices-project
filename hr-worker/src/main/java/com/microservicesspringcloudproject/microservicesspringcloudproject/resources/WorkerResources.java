@@ -33,6 +33,12 @@ public class WorkerResources {
     public ResponseEntity<Worker> findWorkerById(@PathVariable Long idWorker) {
         Worker worker = workerRepository.findById(idWorker).get();
 
+        try {
+            Thread.sleep(3000L);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         logger.info("PORT: " + env.getProperty("local.server.port"));
 
         return ResponseEntity.ok(worker);
