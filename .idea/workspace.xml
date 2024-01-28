@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbe3a91d-f7e3-434a-8613-aecad2e155bb" name="Changes" comment="">
+    <list default="true" id="8bdac0d4-6108-4b50-8246-c1e738f24ba6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-gateway-api-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-gateway-api-zuul/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/resources/WorkerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservicesspringcloudproject/microservicesspringcloudproject/resources/WorkerResources.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,26 +29,18 @@
   "customColor": "",
   "associatedIndex": 6
 }]]></component>
-  <component name="ProjectId" id="2bYjiLomy0euXzKwRVF5dCButda" />
+  <component name="ProjectId" id="2bYurMbV7m54KKwmjKTURl6H0us" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.HrEurekaServerApplication.executor": "Debug",
-    "Spring Boot.HrGatewayApiZuulApplication.executor": "Debug",
-    "Spring Boot.HrPayrollApplication.executor": "Debug",
-    "Spring Boot.HrWorkerApplication.executor": "Debug",
+    "Spring Boot.HrConfigServerApplication.executor": "Debug",
     "git-widget-placeholder": "63484f0f",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/joaop/Desktop/ms-project/microservices-project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,9 +53,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
-  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -71,7 +62,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HrEurekaServerApplication">
+  <component name="RunManager" selected="Spring Boot.HrConfigServerApplication">
+    <configuration name="HrConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hr-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hrconfigserver.hrconfigserver.HrConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HrEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hr-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hreurekaserver.hreurekaserver.HrEurekaServerApplication" />
@@ -105,19 +103,18 @@
     <attachedChunks>
       <set>
         <option value="jdk-11.0.22-azul-11.0.22-f644763e9732-4d405f02" />
-        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24fca987" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bbe3a91d-f7e3-434a-8613-aecad2e155bb" name="Changes" comment="" />
-      <created>1706399037366</created>
+      <changelist id="8bdac0d4-6108-4b50-8246-c1e738f24ba6" name="Changes" comment="" />
+      <created>1706404537113</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1706399037366</updated>
-      <workItem from="1706399038910" duration="4136000" />
+      <updated>1706404537113</updated>
+      <workItem from="1706404542816" duration="2159000" />
     </task>
     <servers />
   </component>
