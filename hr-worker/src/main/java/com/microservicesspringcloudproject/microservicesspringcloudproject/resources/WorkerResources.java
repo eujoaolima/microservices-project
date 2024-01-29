@@ -5,7 +5,6 @@ import com.microservicesspringcloudproject.microservicesspringcloudproject.repos
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.core.env.Environment;
 import org.springframework.http.ResponseEntity;
@@ -22,8 +21,6 @@ import java.util.List;
 public class WorkerResources {
     private static Logger logger = LoggerFactory.getLogger(WorkerResources.class);
 
-    @Value("${test.config}")
-    private String testConfig;
 
     @Autowired private Environment env;
     @Autowired private WorkerRepository workerRepository;
@@ -31,7 +28,6 @@ public class WorkerResources {
 
     @GetMapping("/configs")
     public ResponseEntity<Void> getConfigs() {
-        logger.info("CONFIG: " + testConfig);
         return ResponseEntity.noContent().build();
     }
 
@@ -45,13 +41,6 @@ public class WorkerResources {
     @GetMapping("/{idWorker}")
     public ResponseEntity<Worker> findWorkerById(@PathVariable Long idWorker) {
         Worker worker = workerRepository.findById(idWorker).get();
-
-        try {
-            Thread.sleep(3000L);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
         logger.info("PORT: " + env.getProperty("local.server.port"));
 
         return ResponseEntity.ok(worker);
