@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="23aca06b-fc12-41e0-9dc0-59a1ed181b97" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-gateway-api-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-gateway-api-zuul/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-gateway-api-zuul/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-gateway-api-zuul/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-oauth/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-oauth/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hr-user/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-user/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-worker/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +57,7 @@
     "Spring Boot.HrEurekaServerApplication.executor": "Debug",
     "Spring Boot.HrGatewayApiZuulApplication.executor": "Debug",
     "Spring Boot.HrOauthApplication.executor": "Debug",
+    "Spring Boot.HrUserApplication.executor": "Debug",
     "Spring Boot.HrWorkerApplication.executor": "Debug",
     "git-widget-placeholder": "docker-branch",
     "kotlin-language-version-configured": "true",
@@ -147,7 +155,7 @@
       <workItem from="1706481159614" duration="3352000" />
       <workItem from="1706493999500" duration="3130000" />
       <workItem from="1706570690940" duration="1528000" />
-      <workItem from="1706579420808" duration="1943000" />
+      <workItem from="1706579420808" duration="2665000" />
     </task>
     <servers />
   </component>
